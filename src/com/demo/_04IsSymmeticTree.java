@@ -5,10 +5,10 @@ import java.util.Stack;
 
 /**
  * @author: JunLog
- * @Description: 判断二叉树是否对称
+ * @Description: 力扣101.判断二叉树是否对称
  * Date: 2022/8/8 22:16
  */
-public class Demo03 {
+public class _04IsSymmeticTree {
 
     public class TreeNode {
         int val;

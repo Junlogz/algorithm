@@ -5,10 +5,10 @@ import java.util.Map;
 
 /**
  * @author: JunLog
- * @Description: 求和为给定值的两个数的下标
+ * @Description: 力扣1.求和为给定值的两个数的下标
  * Date: 2022/8/8 21:22
  */
-public class Demo02 {
+public class _02GetTwoSumIndex_1 {
 
     // Time:O(n^2) space：O（1）
     public int[] getTwoSum1(int[] nums, int target) {

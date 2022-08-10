@@ -8,7 +8,7 @@ import java.util.Map;
  * @Description: 求和为给定值的两个数的下标
  * Date: 2022/8/8 21:22
  */
-public class Demo02_1 {
+public class _03GetTwoSumIndex_2 {
 
     // Time:O（n） space：O（1）
     public int[] getTwoSum1(int[] nums, int target) {

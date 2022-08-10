@@ -5,7 +5,7 @@ package com.demo;
  * @Description: 回文字符串判断
  * Date: 2022/8/2 23:16
  */
-public class Demo01 {
+public class _01Palindrome {
     public boolean isAlphanumeric(char c) {
         return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9');
     }
