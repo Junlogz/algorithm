@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author: JunLog
- * @Description: *
+ * @Description: 判断单链表是否回文
  * Date: 2022/8/10 14:36
  */
 public class _14ListNodeIsPalindromic {
