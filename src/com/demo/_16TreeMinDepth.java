@@ -8,7 +8,7 @@ import java.util.Queue;
  * @Description: 求二叉树最小深度
  * Date: 2022/8/11 10:53
  */
-public class _16MinDepth {
+public class _16TreeMinDepth {
 
     public class TreeNode {
         int val;
