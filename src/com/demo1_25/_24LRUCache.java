@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo1_25;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -63,11 +63,15 @@ public class _24LRUCache {
         public void put(int key, int value) {
             // 包含的话就更新
             if (map.containsKey(key)) {
+                // 获取值
                 Node cur = map.get(key);
+                // 赋值
                 cur.val = value;
                 move2Head(cur);
             } else {
+                // 移除head节点 最久未使用得
                 if (head.val != -1) map.remove(head.key);
+                // 更新head的key val
                 head.key = key;
                 head.val = value;
                 map.put(key, head);
