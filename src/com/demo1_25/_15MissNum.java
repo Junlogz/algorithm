@@ -8,7 +8,7 @@ package com.demo1_25;
 public class _15MissNum {
 
     public static void main(String[] args) {
-        int[] arr = {1,0};
+        int[] arr = {3,0,1};
         missingNumber(arr);
     }
 
