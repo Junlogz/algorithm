@@ -9,8 +9,9 @@ import java.util.List;
  * @Description: 三数和
  * Date: 2022/8/19 11:46
  */
-public class _53TreeNumSum {
+public class _53ThreeNumSum {
 
+    // Time：O(n^2), Space：O(1)
     public List<List<Integer>> treeNumSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums);
