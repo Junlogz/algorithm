@@ -1,4 +1,4 @@
-package com.demo51_100;
+package com.demo51_75;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
