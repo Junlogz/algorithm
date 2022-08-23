@@ -5,7 +5,7 @@ package com.demo51_75;
  * @Description: 213. 打家劫舍 II
  * Date: 2022/8/22 14:21
  */
-public class _71Rob2 {
+public class _72Rob2 {
 
     public int rob01(int[] nums, int start, int end) {
         int pre2 = 0, pre1 = 0;
